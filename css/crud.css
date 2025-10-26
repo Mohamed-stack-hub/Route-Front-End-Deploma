@@ -1,0 +1,66 @@
+body {
+  background-color: #f7ecde;
+}
+/* #352e28 */
+
+::selection {
+  background-color: #fec260;
+}
+h2.bookmark {
+  z-index: 10;
+}
+.title {
+  font-family: "Pacifico", cursive;
+  width: fit-content;
+}
+.title::before {
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  bottom: 0;
+  z-index: -1;
+  background-color: #fec260;
+  transition: 0.3s;
+}
+.title:hover::before {
+  height: 80%;
+}
+.form {
+  margin-top: 100px;
+  border-top: dotted 3px #000;
+  border-bottom: dotted 3px #000;
+}
+.form .sup-title {
+  font-family: "Righteous", sans-serif;
+  background: linear-gradient(to right, #3ca55c, #b5ac49);
+  background-clip: text;
+  color: transparent;
+}
+.form input {
+}
+.form input:focus {
+  outline: solid 3px orange;
+  border: none;
+}
+.form button {
+  color: white;
+  background-color: #d1512d;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+table {
+  background: #f8f9fa;
+  margin: 24px auto;
+  width: 95%;
+}
+
+table thead tr {
+  font-weight: bold;
+  text-align: center;
+}
+
+table tbody tr td {
+}
