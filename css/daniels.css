@@ -1,0 +1,81 @@
+/* Main compontets */
+:root {
+  --main-color: rgb(0, 154, 216);
+  --section-background: #1e202b;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
+    url("../imgs/london.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.mid-background {
+  background-color: #2d303d !important;
+}
+.mid-background-head {
+  background-color: #1e202b !important;
+}
+/* Main compontets */
+/* Start Navbar */
+.navbar {
+  background-color: var(--section-background);
+}
+.navbar .container .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+.navbar .navbar-brand span {
+  font-size: 10px;
+}
+.navbar .container .navbar-nav .nav-item .dick {
+  color: rgb(0, 154, 216);
+  border: solid 2px rgb(0, 154, 216);
+  border-radius: 20px;
+}
+.navbar .icon {
+  color: rgb(0, 154, 216);
+}
+/* End Navbar */
+/* Start Search bar */
+.search-bar .inner {
+  background-color: var(--section-background);
+  border-radius: 40px;
+}
+.search-bar input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: rgb(176, 176, 176);
+}
+.search-bar input::placeholder {
+  color: rgb(176, 176, 176);
+}
+.search-bar input:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background-color: transparent;
+  color: rgb(176, 176, 176);
+}
+.search-bar button {
+  background: var(--main-color);
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 30px;
+}
+/* End Search bar */
+/* Start weather board */
+
+.weather-table .card-header {
+  background-color: #2d303d;
+}
+
+.card {
+  border: none !important;
+}
+
+.card-body {
+  background-color: var(--section-background);
+}
+/* Start weather board */
