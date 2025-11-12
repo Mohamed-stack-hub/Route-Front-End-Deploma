@@ -1,0 +1,42 @@
+body {
+  background: #222642;
+  background: linear-gradient(
+    90deg,
+    rgba(34, 38, 66, 1) 0%,
+    rgba(0, 212, 255, 1) 96%
+  );
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+section .form-control {
+  background-color: transparent;
+}
+section .form-control::placeholder {
+  color: white;
+}
+section .form-control:focus {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.logout {
+  background-color: transparent;
+  border: solid 3px rgba(44, 152, 77, 0.381);
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 93vh;
+  padding: 0;
+  margin: 0;
+}
